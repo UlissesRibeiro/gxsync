@@ -69,3 +69,20 @@
     overflow-y: auto;
     outline: 0;
   }
+
+       /* 100% Image Width on Smaller Screens */
+       @media only screen and (max-width: 700px){
+        .row img{
+          width: 50%;
+        }
+        .modal-body{
+          width: 100%;
+        
+        }
+        .modal-body img{
+         margin: auto 25%;
+        }
+        #logo_on{
+          width: 100%;
+        }
+      }
